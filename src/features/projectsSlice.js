@@ -25,11 +25,21 @@ import weather_02 from "../assets/projects/weather_app/image_02.png";
 import weather_03 from "../assets/projects/weather_app/image_03.png";
 import weather_04 from "../assets/projects/weather_app/image_04.png";
 
+import zizou_shop_01 from "../assets/projects/zizou_shop/image_01.png";
+import zizou_shop_02 from "../assets/projects/zizou_shop/image_02.png";
+import zizou_shop_03 from "../assets/projects/zizou_shop/image_03.png";
+import zizou_shop_04 from "../assets/projects/zizou_shop/image_04.png";
+import zizou_shop_05 from "../assets/projects/zizou_shop/image_05.png";
+import zizou_shop_06 from "../assets/projects/zizou_shop/image_06.png";
+import zizou_shop_07 from "../assets/projects/zizou_shop/image_07.png";
+
+
 const initialState = [
   
   {
     id: 2,
     name: "App Web Gastos y Compras",
+    technologies:["React js","Tailwind css","React Table"],
     toggler: false,
     description:
       "Desarrollo frontend de una aplicacion web de gestion de compras y gastos, consumiendo API's para el manejo y almacenamiento de datos.",
@@ -53,11 +63,16 @@ const initialState = [
         url_image: adm_corp_06,
       },
     ],
+    links:{
+      github:"",
+      demo:""
+    }
   },
   {
     id: 3,
     name: "Blog WellDone",
     toggler: false,
+    technologies:["Vanilla JS","Css","Express js","NodeJs","MongoDB"],
     description:
       "Aplicacion web red de blogging , publicacion , edicion , interaccion de contenido de blogs.",
     images: [
@@ -74,11 +89,16 @@ const initialState = [
         url_image: wellDone_04,
       },
     ],
+    links:{
+      github:"https://github.com/jheremy02/Proyecto-final-bootcamp-WellDone",
+      demo:""
+    }
   },
   {
     id: 4,
     name: "ToDo List",
     toggler: false,
+    technologies:["React js","TailwindCss","Redux Toolkit","Sparrest js"],
     description:
       "Aplicacion web de gestion de tareas, CRUD con un simulador backend.",
     images: [
@@ -95,12 +115,51 @@ const initialState = [
         url_image: todo_rtk_03,
       },
     ],
+    links:{
+      github:"https://github.com/jheremy02/todo_app_rtk",
+      demo:""
+    }
   },
-
+  {
+    id: 6,
+    name: "Demo Zizou Shop",
+    toggler: false,
+    technologies:["React js","TailwindCss","Api Paypal"],
+    description:
+      "MVP de una tienda virtual con React , conectado al api de Paypal para simular pagos online.",
+    images: [
+      {
+        url_image: zizou_shop_01,
+      },
+      {
+        url_image:zizou_shop_02,
+      },
+      {
+        url_image: zizou_shop_03,
+      },
+      {
+        url_image: zizou_shop_04,
+      },
+      {
+        url_image: zizou_shop_05,
+      },
+      {
+        url_image: zizou_shop_06,
+      },
+      {
+        url_image: zizou_shop_07,
+      },
+    ],
+    links:{
+      github:"https://github.com/jheremy02/zizou_shop_react",
+      demo:""
+    }
+  },
   {
     id: 5,
     toggler: false,
     name: "PokeApi",
+    technologies:["React js","TailwindCss","PokeApi"],
     description:
       "Aplicacion web con react que permite listar los pokemones de forma paginada usando el api pokeapi y guarda el estado de los pokemones favoritos-",
     images: [
@@ -114,10 +173,15 @@ const initialState = [
         url_image: pokeapi_02,
       },
     ],
+    links:{
+      github:"https://github.com/jheremy02/web_card_pokeApi",
+      demo:""
+    }
   },
   {
     id: 1,
     name: "Weather App Web",
+    technologies:["React js","TailwindCss","Api OpenWeather"],
     toggler: false,
     description:
       "App Web para buscar informacion del clima en ciudades del mundo, usando el api OpenWeather.",
@@ -135,7 +199,12 @@ const initialState = [
         url_image: weather_04,
       },
     ],
+    links:{
+      github:"https://github.com/jheremy02/weather_web_app_react",
+      demo:""
+    }
   },
+  
 ];
 
 const projectsSlice = createSlice({
