@@ -37,11 +37,12 @@ function Projects() {
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className="hover:animate-jump max-w-sm flex flex-col justify-between  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 "
+              className="  max-w-sm flex flex-col justify-between  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 "
             >
               <a className="cursor-pointer ">
                 <img
-                  className="rounded-t-lg bg-cover object-contain w-full max-h-60 "
+
+                  className="  rounded-t-lg bg-cover object-contain w-full max-h-60 "
                   onClick={() => {
                     handle_toggler(project.id);
                   }}
@@ -73,6 +74,8 @@ function Projects() {
                 */}
 
                 <FsLightbox
+                    
+                  
                   key={idx}
                   toggler={project.toggler}
                   type={"image"}
