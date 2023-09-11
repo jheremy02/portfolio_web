@@ -34,6 +34,15 @@ import zizou_shop_06 from "../assets/projects/zizou_shop/image_06.png";
 import zizou_shop_07 from "../assets/projects/zizou_shop/image_07.png";
 
 
+import attendance_01 from "../assets/projects/attendance_qr/image_01.jpeg";
+import attendance_02 from "../assets/projects/attendance_qr/image_02.jpeg";
+import attendance_03 from "../assets/projects/attendance_qr/image_03.jpeg";
+import attendance_04 from "../assets/projects/attendance_qr/image_04.jpeg";
+import attendance_05 from "../assets/projects/attendance_qr/image_05.jpeg";
+import attendance_06 from "../assets/projects/attendance_qr/image_06.png";
+import attendance_07 from "../assets/projects/attendance_qr/image_07.png";
+import attendance_08 from "../assets/projects/attendance_qr/image_08.png";
+
 const initialState = [
   
   {
@@ -201,6 +210,48 @@ const initialState = [
     ],
     links:{
       github:"https://github.com/jheremy02/weather_web_app_react",
+      demo:""
+    }
+  },
+
+  {
+    id: 7,
+    name: "Registro de Asistencia por QR",
+    technologies:["Javascript","TailwindCss","PHP"],
+    toggler: false,
+    description:
+      "Implementacion de un modulo web que permita al empleado registrar sus asistencia usando el escaneo con QR",
+    images: [
+      {
+        url_image: attendance_06,
+      },
+      {
+        url_image: attendance_01,
+      },
+      {
+        url_image: attendance_02,
+      },
+      {
+        url_image: attendance_03,
+      },
+      {
+        url_image: attendance_04,
+      },
+      {
+        url_image: attendance_05,
+      },
+      {
+        url_image: attendance_06,
+      },
+      {
+        url_image: attendance_07,
+      },
+      {
+        url_image: attendance_08,
+      },
+    ],
+    links:{
+      github:"",
       demo:""
     }
   },

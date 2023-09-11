@@ -10,7 +10,7 @@ import logo_css from "../assets/logo_css.webp";
 
 function SkillsLogos() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-900" id='skills'>
     <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
         <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">Skills</h2>
         <div className="grid grid-cols-2 gap-6 text-gray-500 sm:gap-6 md:grid-cols-3 lg:grid-cols-8 dark:text-gray-400">
