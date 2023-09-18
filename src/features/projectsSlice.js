@@ -42,6 +42,13 @@ import attendance_05 from "../assets/projects/attendance_qr/image_05.jpeg";
 import attendance_06 from "../assets/projects/attendance_qr/image_06.png";
 import attendance_07 from "../assets/projects/attendance_qr/image_07.png";
 import attendance_08 from "../assets/projects/attendance_qr/image_08.png";
+import attendance_09 from "../assets/projects/attendance_qr/image_09.png";
+import attendance_10 from "../assets/projects/attendance_qr/image_10.png";
+
+import portfolio_01 from "../assets/projects/portfolio/portfolio_01.png";
+import portfolio_02 from "../assets/projects/portfolio/portfolio_02.png";
+import portfolio_03 from "../assets/projects/portfolio/portfolio_03.png";
+import portfolio_04 from "../assets/projects/portfolio/portfolio_04.png";
 
 const initialState = [
   
@@ -249,9 +256,42 @@ const initialState = [
       {
         url_image: attendance_08,
       },
+      {
+        url_image: attendance_09,
+      },
+      {
+        url_image: attendance_10,
+      },
     ],
     links:{
       github:"",
+      demo:""
+    }
+  },
+  {
+    id: 12,
+    name: "Mi portafolio Web",
+    technologies:["Javascript","TailwindCss", "React","Redux Toolkit"],
+    toggler: false,
+    description:
+      "Este portafolio web fue construido por mi, desde su desarrollo hasta subirlo a la nube.",
+    images: [
+      {
+        url_image: portfolio_01,
+      },
+      {
+        url_image: portfolio_02,
+      },
+      {
+        url_image: portfolio_03,
+      },
+      {
+        url_image: portfolio_04,
+      },
+
+    ],
+    links:{
+      github:"dgsddgdfgdfg",
       demo:""
     }
   },
