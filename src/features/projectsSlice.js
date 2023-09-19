@@ -291,7 +291,7 @@ const initialState = [
 
     ],
     links:{
-      github:"dgsddgdfgdfg",
+      github:"https://github.com/jheremy02/portfolio_web",
       demo:""
     }
   },
