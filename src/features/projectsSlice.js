@@ -50,6 +50,14 @@ import portfolio_02 from "../assets/projects/portfolio/portfolio_02.png";
 import portfolio_03 from "../assets/projects/portfolio/portfolio_03.png";
 import portfolio_04 from "../assets/projects/portfolio/portfolio_04.png";
 
+import requirement_1 from "../assets/projects/requirements/requirement_1.png";
+import requirement_2 from "../assets/projects/requirements/requirement_2.png";
+import requirement_3 from "../assets/projects/requirements/requirement_3.png";
+import requirement_4 from "../assets/projects/requirements/requirement_4.png";
+import requirement_5 from "../assets/projects/requirements/requirement_5.png";
+import requirement_6 from "../assets/projects/requirements/requirement_6.png";
+import requirement_7 from "../assets/projects/requirements/requirement_7.png";
+
 const initialState = [
   
   {
@@ -133,6 +141,41 @@ const initialState = [
     ],
     links:{
       github:"https://github.com/jheremy02/todo_app_rtk",
+      demo:""
+    }
+  },
+  {
+    id: 13,
+    name: "Sistema de Requerimientos y Compras",
+    toggler: false,
+    technologies:["Javascript","Bootstrap","API Laravel"],
+    description:
+      "Sitema web que permite al trabajador de un restaurante requerir insumos para que el administrador luego pase a revisarlos , proceder con la compra y registrarlo en el sistema.",
+    images: [
+      {
+        url_image: requirement_1,
+      },
+      {
+        url_image:requirement_2,
+      },
+      {
+        url_image: requirement_3,
+      },
+      {
+        url_image: requirement_4,
+      },
+      {
+        url_image: requirement_5,
+      },
+      {
+        url_image: requirement_6,
+      },
+      {
+        url_image: requirement_7,
+      },
+    ],
+    links:{
+      github:"",
       demo:""
     }
   },

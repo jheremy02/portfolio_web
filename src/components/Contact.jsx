@@ -16,13 +16,13 @@ function Contact() {
        
         <div className="flex justify-center gap-14 mt-9 flex-wrap">
         <div className="  flex flex-wrap justify-center items-center  gap-4 first-line:mb-6 text-gray-900 dark:text-white">
-          <a
-            href="#"
+          <a target='_blank' rel='noreferrer'
+            href="https://www.linkedin.com/in/jheyson-jheremy-menendez-amado-165649181"
             className="block max-w-sm p-5 bg-white border border-gray-200 rounded-full shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
           ><img src={logo_linkedin} className="w-12" /></a>
 
-          <a
-            href="#"
+          <a target='_blank' rel='noreferrer'
+            href="https://github.com/jheremy02"
             className="block max-w-sm p-5 bg-white border border-gray-200 rounded-full shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
           ><img src={logo_github} className="w-12" /></a>
 
