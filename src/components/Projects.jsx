@@ -11,9 +11,9 @@ function Projects() {
   const [toggler, setToggler] = useState(false);
 
   function handle_toggler(project_id) {
-    console.log("hello world");
+    
     const project_found = projects.find((project) => project.id == project_id);
-    console.log(project_found);
+    
     const projectUpdated = {
       ...project_found,
       toggler: !project_found.toggler,
