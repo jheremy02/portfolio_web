@@ -122,7 +122,7 @@ const initialState = [
     id: 4,
     name: "ToDo List",
     toggler: false,
-    technologies:["React js","TailwindCss","Redux Toolkit","Sparrest js"],
+    technologies:["React js","TailwindCss","Redux Toolkit","Sparrest js",'AWS'],
     description:
       "Aplicacion web de gestion de tareas, CRUD con un simulador backend.",
     images: [
@@ -141,7 +141,7 @@ const initialState = [
     ],
     links:{
       github:"https://github.com/jheremy02/todo_app_rtk",
-      demo:""
+      demo:"https://taskapp.jheysondev.com/"
     }
   },
   {
@@ -234,7 +234,7 @@ const initialState = [
     ],
     links:{
       github:"https://github.com/jheremy02/web_card_pokeApi",
-      demo:""
+      demo:"https://jheysondev.com/proyects/poke-api/"
     }
   },
   {
@@ -260,7 +260,7 @@ const initialState = [
     ],
     links:{
       github:"https://github.com/jheremy02/weather_web_app_react",
-      demo:""
+      demo:"https://jheysondev.com/proyects/weather-app/"
     }
   },
 
@@ -314,7 +314,7 @@ const initialState = [
   {
     id: 12,
     name: "Mi portafolio Web",
-    technologies:["Javascript","TailwindCss", "React","Redux Toolkit"],
+    technologies:["Javascript","TailwindCss", "React","Redux Toolkit",'AWS'],
     toggler: false,
     description:
       "Este portafolio web fue construido por mi, desde su desarrollo hasta subirlo a la nube.",

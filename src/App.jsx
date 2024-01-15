@@ -15,9 +15,9 @@ function App() {
 
   return (
     <>
-    <di>
+    <div>
       <Navbar></Navbar>
-    </di>
+    </div>
       <div>
         <Hero></Hero>
       </div>

@@ -8,7 +8,7 @@ export default {
     extend: {},
   },
   plugins: [
-    require('flowbite/plugin'),
-    require('tailwindcss-animated'),
+    require ('flowbite/plugin'),
+    require ('tailwindcss-animated'),
   ],
 };
