@@ -58,12 +58,60 @@ import requirement_5 from "../assets/projects/requirements/requirement_5.png";
 import requirement_6 from "../assets/projects/requirements/requirement_6.png";
 import requirement_7 from "../assets/projects/requirements/requirement_7.png";
 
+import lutxo01 from '../assets/projects/lutxo/image_01.png'
+
+import lutxo02 from '../assets/projects/lutxo/image_02.png'
+
+import lutxo03 from '../assets/projects/lutxo/image_03.png'
+
+import lutxo04 from '../assets/projects/lutxo/image_04.png'
+
+import lutxo05 from '../assets/projects/lutxo/image_05.png'
+
+import lutxo06 from '../assets/projects/lutxo/image_06.png'
+
+import lutxo07 from '../assets/projects/lutxo/image_07.png'
+
 const initialState = [
-  
+  {
+    id: 13,
+    name: "Sistema de Facturación Electrónica",
+    technologies: ["Javascript", "JQuery", "Bootstrap",'CSS'],
+    toggler: false,
+    description:
+      "Desarrollo frontend de un sistema de ventas con facturación electrónica consumiendo API's construidos con Laravel para el manejo y almacenamiento de datos.",
+    images: [
+      {
+        url_image: lutxo01,
+      },
+      {
+        url_image: lutxo02,
+      },
+      {
+        url_image: lutxo03,
+      },
+      {
+        url_image: lutxo04,
+      },
+      {
+        url_image: lutxo05,
+      },
+      {
+        url_image: lutxo06,
+      },
+      {
+        url_image: lutxo07,
+      },
+    ],
+    links: {
+      github: "",
+      demo: "https://demo.lutxo.com/"
+    }
+  },
   {
     id: 2,
     name: "App Web Gastos y Compras",
-    technologies:["React js","Tailwind css","React Table"],
+    technologies: ["React js", "Tailwind css", "React Table"],
     toggler: false,
     description:
       "Desarrollo frontend de una aplicacion web de gestion de compras y gastos, consumiendo API's para el manejo y almacenamiento de datos.",
@@ -87,16 +135,16 @@ const initialState = [
         url_image: adm_corp_06,
       },
     ],
-    links:{
-      github:"",
-      demo:""
+    links: {
+      github: "",
+      demo: ""
     }
   },
   {
     id: 3,
     name: "Blog WellDone",
     toggler: false,
-    technologies:["Vanilla JS","Css","Express js","NodeJs","MongoDB"],
+    technologies: ["Vanilla JS", "Css", "Express js", "NodeJs", "MongoDB"],
     description:
       "Aplicacion web red de blogging , publicacion , edicion , interaccion de contenido de blogs.",
     images: [
@@ -113,16 +161,16 @@ const initialState = [
         url_image: wellDone_04,
       },
     ],
-    links:{
-      github:"https://github.com/jheremy02/Proyecto-final-bootcamp-WellDone",
-      demo:""
+    links: {
+      github: "https://github.com/jheremy02/Proyecto-final-bootcamp-WellDone",
+      demo: ""
     }
   },
   {
     id: 4,
     name: "ToDo List",
     toggler: false,
-    technologies:["React js","TailwindCss","Redux Toolkit","Sparrest js",'AWS'],
+    technologies: ["React js", "TailwindCss", "Redux Toolkit", "Sparrest js", 'AWS'],
     description:
       "Aplicacion web de gestion de tareas, CRUD con un simulador backend.",
     images: [
@@ -139,16 +187,16 @@ const initialState = [
         url_image: todo_rtk_03,
       },
     ],
-    links:{
-      github:"https://github.com/jheremy02/todo_app_rtk",
-      demo:"https://taskapp.jheysondev.com/"
+    links: {
+      github: "https://github.com/jheremy02/todo_app_rtk",
+      demo: "https://taskapp.jheysondev.com/"
     }
   },
   {
     id: 13,
     name: "Sistema de Requerimientos y Compras",
     toggler: false,
-    technologies:["Javascript","Bootstrap","API Laravel"],
+    technologies: ["Javascript", "Bootstrap", "API Laravel"],
     description:
       "Sitema web que permite al trabajador de un restaurante requerir insumos para que el administrador luego pase a revisarlos , proceder con la compra y registrarlo en el sistema.",
     images: [
@@ -156,7 +204,7 @@ const initialState = [
         url_image: requirement_1,
       },
       {
-        url_image:requirement_2,
+        url_image: requirement_2,
       },
       {
         url_image: requirement_3,
@@ -174,16 +222,16 @@ const initialState = [
         url_image: requirement_7,
       },
     ],
-    links:{
-      github:"",
-      demo:""
+    links: {
+      github: "",
+      demo: ""
     }
   },
   {
     id: 6,
     name: "Demo Zizou Shop",
     toggler: false,
-    technologies:["React js","TailwindCss","Api Paypal"],
+    technologies: ["React js", "TailwindCss", "Api Paypal"],
     description:
       "MVP de una tienda virtual con React , conectado al api de Paypal para simular pagos online.",
     images: [
@@ -191,7 +239,7 @@ const initialState = [
         url_image: zizou_shop_01,
       },
       {
-        url_image:zizou_shop_02,
+        url_image: zizou_shop_02,
       },
       {
         url_image: zizou_shop_03,
@@ -209,16 +257,16 @@ const initialState = [
         url_image: zizou_shop_07,
       },
     ],
-    links:{
-      github:"https://github.com/jheremy02/zizou_shop_react",
-      demo:""
+    links: {
+      github: "https://github.com/jheremy02/zizou_shop_react",
+      demo: ""
     }
   },
   {
     id: 5,
     toggler: false,
     name: "PokeApi",
-    technologies:["React js","TailwindCss","PokeApi"],
+    technologies: ["React js", "TailwindCss", "PokeApi"],
     description:
       "Aplicacion web con react que permite listar los pokemones de forma paginada usando el api pokeapi y guarda el estado de los pokemones favoritos-",
     images: [
@@ -232,15 +280,15 @@ const initialState = [
         url_image: pokeapi_02,
       },
     ],
-    links:{
-      github:"https://github.com/jheremy02/web_card_pokeApi",
-      demo:"https://jheysondev.com/proyects/poke-api/"
+    links: {
+      github: "https://github.com/jheremy02/web_card_pokeApi",
+      demo: "https://jheysondev.com/proyects/poke-api/"
     }
   },
   {
     id: 1,
     name: "Weather App Web",
-    technologies:["React js","TailwindCss","Api OpenWeather"],
+    technologies: ["React js", "TailwindCss", "Api OpenWeather"],
     toggler: false,
     description:
       "App Web para buscar informacion del clima en ciudades del mundo, usando el api OpenWeather.",
@@ -258,16 +306,16 @@ const initialState = [
         url_image: weather_04,
       },
     ],
-    links:{
-      github:"https://github.com/jheremy02/weather_web_app_react",
-      demo:"https://jheysondev.com/proyects/weather-app/"
+    links: {
+      github: "https://github.com/jheremy02/weather_web_app_react",
+      demo: "https://jheysondev.com/proyects/weather-app/"
     }
   },
 
   {
     id: 7,
     name: "Registro de Asistencia por QR",
-    technologies:["Javascript","TailwindCss","PHP"],
+    technologies: ["Javascript", "TailwindCss", "PHP"],
     toggler: false,
     description:
       "Implementacion de un modulo web que permita al empleado registrar sus asistencia usando el escaneo con QR",
@@ -306,15 +354,15 @@ const initialState = [
         url_image: attendance_10,
       },
     ],
-    links:{
-      github:"",
-      demo:""
+    links: {
+      github: "",
+      demo: ""
     }
   },
   {
     id: 12,
     name: "Mi portafolio Web",
-    technologies:["Javascript","TailwindCss", "React","Redux Toolkit",'AWS'],
+    technologies: ["Javascript", "TailwindCss", "React", "Redux Toolkit", 'AWS'],
     toggler: false,
     description:
       "Este portafolio web fue construido por mi, desde su desarrollo hasta subirlo a la nube.",
@@ -333,12 +381,12 @@ const initialState = [
       },
 
     ],
-    links:{
-      github:"https://github.com/jheremy02/portfolio_web",
-      demo:""
+    links: {
+      github: "https://github.com/jheremy02/portfolio_web",
+      demo: ""
     }
   },
-  
+
 ];
 
 const projectsSlice = createSlice({
