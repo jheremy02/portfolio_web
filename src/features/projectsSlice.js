@@ -72,11 +72,72 @@ import lutxo06 from '../assets/projects/lutxo/image_06.png'
 
 import lutxo07 from '../assets/projects/lutxo/image_07.png'
 
+
+import myWallet01 from '../assets/projects/myWallet/my_wallet_01.png'
+
+import myWallet02 from '../assets/projects/myWallet/my_wallet_02.png'
+
+import myWallet03 from '../assets/projects/myWallet/my_wallet_03.png'
+
+import myWallet04 from '../assets/projects/myWallet/my_wallet_04.png'
+
+import myWallet05 from '../assets/projects/myWallet/my_wallet_05.png'
+
+import myWallet06 from '../assets/projects/myWallet/my_wallet_06.png'
+
+import myWallet07 from '../assets/projects/myWallet/my_wallet_07.png'
+
+import myWallet08 from '../assets/projects/myWallet/my_wallet_08.png'
+
+import myWallet09 from '../assets/projects/myWallet/my_wallet_09.png'
+
 const initialState = [
+  {
+    id: 14,
+    name: "My Wallet App",
+    technologies: ["React js", "Tailwind css", "React Table", "React Form", 'AWS','Express Js','Mysql','Json Token','Redux'],
+    toggler: false,
+    description:
+      "Aplicacion Web FullStack para gestionar gastos e ingresos personales.Desarrollo backend , frontend y desplegado en AWS con servicios como CloudFront , EC2 , Route53.",
+    images: [
+      {
+        url_image: myWallet01,
+      },
+      {
+        url_image: myWallet02,
+      },
+      {
+        url_image: myWallet03,
+      },
+      {
+        url_image: myWallet04,
+      },
+      {
+        url_image: myWallet05,
+      },
+      {
+        url_image: myWallet06,
+      },
+      {
+        url_image: myWallet07,
+      },
+      {
+        url_image: myWallet08,
+      },
+      {
+        url_image: myWallet09,
+      },
+
+    ],
+    links: {
+      github: "https://github.com/jheremy02/portfolio_web",
+      demo: "https://mywalletapp.jheysondev.com/login"
+    }
+  },
   {
     id: 13,
     name: "Sistema de Facturación Electrónica",
-    technologies: ["Javascript", "JQuery", "Bootstrap",'CSS'],
+    technologies: ["Javascript", "JQuery", "Bootstrap", 'CSS'],
     toggler: false,
     description:
       "Desarrollo frontend de un sistema de ventas con facturación electrónica consumiendo API's construidos con Laravel para el manejo y almacenamiento de datos.",
@@ -387,6 +448,7 @@ const initialState = [
     }
   },
 
+  
 ];
 
 const projectsSlice = createSlice({
