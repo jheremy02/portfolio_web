@@ -91,11 +91,57 @@ import myWallet08 from '../assets/projects/myWallet/my_wallet_08.png'
 
 import myWallet09 from '../assets/projects/myWallet/my_wallet_09.png'
 
+import freelance01 from '../assets/projects/conaforp/image01.png'
+import freelance02 from '../assets/projects/conaforp/image02.png'
+import freelance03 from '../assets/projects/conaforp/image03.png'
+import freelance04 from '../assets/projects/conaforp/image04.png'
+import freelance05 from '../assets/projects/conaforp/image05.png'
+import freelance06 from '../assets/projects/conaforp/image06.png'
+import freelance07 from '../assets/projects/conaforp/image07.png'
+import freelance08 from '../assets/projects/conaforp/image08.png'
+
 const initialState = [
+  {
+    id: 16,
+    name: "Sistema de Gestión de Lotes",
+    technologies: ['React js ', 'Tailwindcss', 'Redux Toolkit', 'React Hook form','JSON Token'],
+    description: '- Desarrollo del lado del frontend de un sistema web para la gestión de procesos de titulación de viviendas.',
+    images: [
+      {
+        url_image: freelance01,
+      },
+      {
+        url_image: freelance02,
+      },
+      {
+        url_image: freelance03,
+      },
+      {
+        url_image: freelance04,
+      },
+      {
+        url_image: freelance05,
+      },
+      {
+        url_image: freelance06,
+      },
+      {
+        url_image: freelance07,
+      },
+      {
+        url_image: freelance08,
+      },
+      
+    ],
+    links: {
+      github: "",
+      demo: ""
+    }
+  },
   {
     id: 14,
     name: "My Wallet App",
-    technologies: ["React js", "Tailwind css", "React Table", "React Form", 'AWS','Express Js','Mysql','Json Token','Redux'],
+    technologies: ["React js", "Tailwind css", "React Table", "React Hook Form", 'AWS', 'Express Js', 'Mysql', 'Json Token', 'Redux'],
     toggler: false,
     description:
       "Aplicacion Web FullStack para gestionar gastos e ingresos personales.Desarrollo backend , frontend y desplegado en AWS con servicios como CloudFront , EC2 , Route53.",
@@ -254,7 +300,7 @@ const initialState = [
     }
   },
   {
-    id: 13,
+    id: 5,
     name: "Sistema de Requerimientos y Compras",
     toggler: false,
     technologies: ["Javascript", "Bootstrap", "API Laravel"],
@@ -448,7 +494,7 @@ const initialState = [
     }
   },
 
-  
+
 ];
 
 const projectsSlice = createSlice({
